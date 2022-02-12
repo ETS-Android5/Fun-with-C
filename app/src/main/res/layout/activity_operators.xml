@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/op"
+                android:scaleType="fitXY">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/html"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:text="An operator is a special symbol that tells the compiler to perform specific mathematical or logical operations. Operators in programming languages quite similar to mathematics.">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ht"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/typeofoperator"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/ht1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="1sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="C supports follwing types of operators:"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:id="@+id/ht2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="1sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="●Arithmetic operators\n
+●Relational operators\n
+●Logical operators\n
+●Bitwise operators\n
+●Assignment operators\n"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/ht3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/arithmetic"
+            android:textColor="#9F880091"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:id="@+id/h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="1sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division etc on numerical values.\nFor our understanding lets say P=8 and Q=4. Following table shows the arithmetic operations that can be performed in C:"
+            android:textSize="20dp"></TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/arithfffinaalll"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></ImageView>
+
+        <TextView
+            android:id="@+id/asd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/rel"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/hsad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="1sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Relational Operators are used to compare values. They return a boolean value (true or false). Following table shows it's usage in C with assumption: P=2, Q=5."
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/relfinal"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/log"
+            android:textColor="@color/teal_700"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="1sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="These operators are used to combine two or more conditions/constraints. These are very useful in combining 'if' condition statements.Lets say P holds value 1 and Q holds value 0:"
+                android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logi"></ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/bit"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="1sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="These operators perform bit-level operations on the data. The six bitwise operators are as follows\n
+● \u0026 -- Bitwise AND opertaor\n
+● | --  Bitwise OR operator\n
+● ^ -- Bitwise exclusive OR operator\n
+● ~ -- One's complement operator (unary operator)\n
+● \u003C\u003C -- Left shift operator\n
+● \u003E\u003E -- Right shift operator\n\n The truth table of bitwse operators are as shown below:\n"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bitwise"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></ImageView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/ass"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/ternary"
+            android:textColor="#B748EA1B"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/Ternary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

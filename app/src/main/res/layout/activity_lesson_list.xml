@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/lessonsbg"
+    android:hapticFeedbackEnabled="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginVertical="10dp"
+            android:id="@+id/Overview"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="9dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Overview of C language"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/program_Structure"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Program Structure"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Variable_and_Datatypes"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Variable and Data types"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Storage_classes"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Storage Classes"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Operators"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Operators"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Decision_Making"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Decision Making"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Loops"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Loops"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Functions"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            android:layout_marginVertical="20dp"
+            app:cardCornerRadius="100sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Functions"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Variables_inside_CPU"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginVertical="3dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Variables inside CPU"
+                android:textAlignment="center"
+                android:textSize="27dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginVertical="20dp"
+            android:id="@+id/Pointers"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Pointers and Arrays"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Strings"
+            android:layout_width="match_parent"
+
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:fontFamily="@font/fredoka_one"
+                android:text="Strings"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="29dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/DMA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Dynamic Memory Alocation"
+
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/FileIO"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            app:cardBackgroundColor="#A3002AFF"
+            app:cardCornerRadius="100sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/fredoka_one"
+                android:text="File I/O in C"
+
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

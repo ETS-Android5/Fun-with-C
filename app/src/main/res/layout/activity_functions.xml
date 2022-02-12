@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:hapticFeedbackEnabled="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/funcs"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Function as the name suggests, is a group of instruction for performing a specific task.
+For understanding purpose lets consider our smartphone. It has various options like clicking photos, listening music, calling, recording etc. All these options can be said functions. Functions allow us to develop programs in modular paradigm. It is like divide and conquer approach."
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#4100897B"
+            android:fontFamily="sans-serif-condensed"
+            android:text="About C functions:"
+            android:textColor="#00897B"
+            android:textColorHighlight="#8E24AA"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="● Every C program consists of one or more functions.\n\n● Every C program must have a function with its name called main.\n\n● Execution of a C program always begins with main function\n\n● A function executes it's block of code when called and returns control to calling function. It may/may not return a value.\n\n● In C we have some built=in functions which are predefined, they are called library functions. ex: printf(), scanf() etc.\n\n●The arguements passed which are passed calling function is called actual parameters. The arguements which are recieved by called function are called formal parameters."
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginVertical="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#41FF886A"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Function declaration:"
+            android:textColor="#FFB300"
+            android:textColorHighlight="#FFB300"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Function declarations tell about its name, type of input arguements and its return type.\n\nSyntax:\n[return type] [function name] (parameter[1], paramete[2].....);\n\n
+Example: int sum(int a. int b);\nHere function name is sum, its return tyoe is 'int' and it accepts two arguements a and b of integer type. "
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#9400D9FF"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Function definition:"
+            android:textColor="#1E88E5"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Function definition is defining the action which function is intended to do.\n\nGeneral Syntax:\n\nreturn_type function_name(parameters separated by comma)\n
+{\nBody\n}\n\nExample:\n\nint sum(int a, int b)\n
+{\n
+int c=a+b;\n
+return c;\n
+}\n\nIn this example, the function sum takes two integers as its arguement, stores their sum in a another variable and returns that variable."
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#6BFF61F7"
+            android:backgroundTint="#6BFF61F7"
+            android:backgroundTintMode="multiply"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Calling a Function"
+            android:textColor="#D000FF"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="C supports following two ways of calling a fucntion\n
+●Call By Value: In this method actual values of arguement of calling function is copied to formal parameters of called function. Once the function returns, the changes made to these arguements are also lost.\n\nExample:"
+            android:textSize="20dp"></TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="●Call By Address: In this method the address of arguement(s) of calling function is copied to formal parameters of called function. This is done using Pointers. The called function uses the address to access/modify the value of arguements. Changes made to them exist when function returns.\n\nExample:"
+            android:textSize="20dp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

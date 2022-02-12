@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qbg"
+    tools:context=".Quiz_list">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/quizbg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/wtq"
+        ></ImageView>
+    </LinearLayout>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/set1"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginVertical="200dp"
+            android:layout_marginStart="60dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/q1bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/jockey_one"
+                android:text="(SET  1)\nVariable, Data Types,\nOperators"
+                android:textAlignment="center"
+                android:textColor="#E1AB0A"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/set2"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="60dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/q2bgg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/jockey_one"
+                android:text="(SET  2)\nDecision Making, Loops\nFunctions"
+                android:textAlignment="center"
+                android:textColor="#1539EA"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/set3"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginStart="60dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/q3bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/jockey_one"
+                android:text="(SET  3)\nPointer,Arrays\nMemory Allocation"
+                android:textAlignment="center"
+                android:textColor="#1F611C"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

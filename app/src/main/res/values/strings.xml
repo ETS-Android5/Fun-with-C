@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fun with C</string>
+    <string name="typeofoperator"><u>Types of Operators:</u></string>
+    <string name="arithmetic"><u>Arithmetic Operators:</u></string>
+    <string name="rel"><u>Relational Operators:</u></string>
+    <string name="log"><u>Logical Operators:</u></string>
+    <string name="bit"><u>Bitwise Operators:</u></string>
+    <string name="ass"><u>Assignment Operators:</u></string>
+    <string name="ternary"><u>Ternary Operator:</u></string>
+    <string name="ifs"><u>if-statement:</u></string>
+    <string name="ifelse"><u>if-else:</u></string>
+    <string name="elsedes">else statement is used along with if staement to define a situation such that <i>if condition fails, then do this.</i> </string>
+    <string name="nestedif"><u>Nested if:</u></string>
+    <string name="ifelseifladder"><u>if-else-if ladder:</u></string>
+    <string name="switchcase"><u>Switch case:</u></string>
+    <string name="jumps"><u>Jump Statements:</u></string>
+    <string name="forloop"><u>For loop:</u></string>
+    <string name="wileloop"><u>While loop:</u></string>
+    <string name="dowileloop"><u>Do-While loop:</u></string>
+    <string name="quote"><i>The only way to learn a new programming language is by writing programs in it<br>Dennis Ritchie</br></i></string>
+</resources>

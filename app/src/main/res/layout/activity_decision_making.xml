@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/dm"
+                android:scaleType="fitXY">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="In daily life we have many choices to make based on some condition.
+Lets say we want to go to post office tomorrow. But weather prediction says it shall rain tomorrow. So we have to make choice that if it rains, we won't go else We shall go.
+Similar kind of situdatuion arise in programming. For this, we have if-else statement in C. Decision making statements are of five types in C:
+\n●if-statment
+\n●if..else statements
+\n●nested if statements
+\n●if-else-if ladder
+\n●switch statements
+\n●Jump Statements(break,continue,goto,return)"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/ht"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/ifs"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="if-statement is simplest decision making statement. If the condition of if statement is true
+then the instructions insde block of code is executed else not. If block/curly braces are not provided with if statement then the statement
+immediately after if statement is executed.">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Example:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/h32t"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/ifelse"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/elsedes"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Example:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/h3232t"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/nestedif"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="A nested if in C is an if statement that is the target of another if statement. Nested if statements mean an if statement inside another if statement.
+            \nIllustraton:\nif(condition1)\n{\n//Executes if condition 1 is true.\nif(condition2)\n{\n//Executes if condition 2 is true.\n
+}\n }\n"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Example:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/h3232tasda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/ifelseifladder"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="if-else ifladder is executed from top to bottom, in the ladder as soon as the condition becomes true rest all conditions are bypassed. If no conditions are true else condition is executed at last. else statement is optional in C."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Example:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/h3232tasdasa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/switchcase"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Switch case is similar to if-else if ladder. Here, within a switch statement a variable is tested for equality against a list of values. Each value is called a case, and the variable being switched on is checked for each switch case.
+Note: If a test is passed, break statement must be there to break from switch, other wise all remaining cases will be executed too. Also switch cases can be used with ranges as shown in example below:"
+            android:layout_marginRight="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10sp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Example:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/h3232tsasdasa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/jumps"
+            android:textColor="#9F0407FF"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Jump statement has its exact literal meaning i.e it is used to move from one place to another within the program.
+            C has mainly four types of Jump statements which are break,continue, reutrn and goto.
+break and continue are used generally in loops and hence it is discussed in loops section.
+return statement is used to return a value from function(discussed in functions). goto statements are used
+to jump from one point/label to another within a function. Labels are user defined identifiers that indicates the
+target statement where jump has to be done. It can be used like a loop as shown in example below:"
+            android:layout_marginRight="10dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

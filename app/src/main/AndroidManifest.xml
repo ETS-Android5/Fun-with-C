@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.funwithc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FunWithC">
+        <activity
+            android:name=".Online_Resources"
+            android:exported="false" />
+        <activity
+            android:name=".File_IO_in_C"
+            android:exported="false" />
+        <activity
+            android:name=".Dynamic_memory_allocation"
+            android:exported="false" />
+        <activity
+            android:name=".Stringss"
+            android:exported="false" />
+        <activity
+            android:name=".Pointers"
+            android:exported="false" />
+        <activity
+            android:name=".Challenge1"
+            android:exported="false" />
+        <activity
+            android:name=".Challenges_List"
+            android:exported="false" />
+        <activity
+            android:name=".set3Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".set2Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".set1Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz_list"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz_List"
+            android:exported="false" />
+        <activity
+            android:name=".Memory_Allocation_inside_CPU"
+            android:exported="false" />
+        <activity
+            android:name=".Online_Compiler"
+            android:exported="false"
+            android:label="Online Compiler" />
+        <activity
+            android:name=".Functions"
+            android:exported="false" />
+        <activity
+            android:name=".loops"
+            android:exported="false" />
+        <activity
+            android:name=".Decision_Making"
+            android:exported="false" />
+        <activity
+            android:name=".Operators"
+            android:exported="false" />
+        <activity
+            android:name=".Storage_Classes"
+            android:exported="false" />
+        <activity
+            android:name=".Data_Types"
+            android:exported="false" />
+        <activity
+            android:name=".Program_Structure"
+            android:exported="false" />
+        <activity
+            android:name=".Overview"
+            android:exported="false" />
+        <activity
+            android:name=".LessonList"
+            android:exported="false"
+            android:label="List of Lessons" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
